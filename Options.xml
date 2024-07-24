@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<options>
+	<option ID="OptionsEnhancedLocationShowMessage" DisplayText="Show Parasang in Message log" Category="Enhanced Location" Type="Checkbox" Default="No"/>
+</options>

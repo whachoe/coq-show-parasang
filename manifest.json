@@ -1,0 +1,10 @@
+{
+  "id": "Enhanced_Location",
+  "loadorder": 1,
+  "title": "{{blue|Enhanced Location}}",
+  "description": "Shows the coordinates of your location",
+  "tags": "World,UX,Cosmetic",
+  "version": "1.0",
+  "author": "whachoe <whachoe@gmail.com>",
+  "previewImage": "preview.png"
+}
