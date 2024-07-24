@@ -7,12 +7,12 @@
 
     [PlayerMutator]
     [HasCallAfterGameLoaded]
-    public class CJPAPlayerMutator : IPlayerMutator
+    public class ShowParasangPlayerMutator : IPlayerMutator
     {
         public void mutate(GameObject player)
         {
             // add our listener to the player when a New Game begins
-            _ = player.AddPart<CJPA_EnhancedLocation_EventListener>();
+            _ = player.AddPart<ShowParasong_EventListener>();
         }
 
         [CallAfterGameLoaded]
@@ -20,7 +20,7 @@
         {
             // Called whenever loading a save game
             var player = XRLCore.Core?.Game?.Player?.Body;
-            _ = (player?.RequirePart<CJPA_EnhancedLocation_EventListener>());
+            _ = (player?.RequirePart<ShowParasong_EventListener>());
         }
     }
 }

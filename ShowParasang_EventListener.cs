@@ -9,7 +9,7 @@
     using XRL.UI;
 
     [Serializable]
-    public class CJPA_EnhancedLocation_EventListener : IPart
+    public class ShowParasong_EventListener : IPart
     {
         public static readonly string UnknownCoordinates = "--,--,--";
         private string FormattedCoordinates = UnknownCoordinates;
@@ -23,7 +23,7 @@
             UpdateCoordinates();
 
             // Print message in Player Message Log on the right
-            if (EnhancedLocationOptions.showParasangMessage) { 
+            if (ShowParasangOptions.showParasangMessage) { 
                 PrintCoordinates(); 
             
             }

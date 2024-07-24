@@ -1,10 +1,10 @@
 {
-  "id": "Enhanced_Location",
+  "id": "Show_Parasang",
   "loadorder": 1,
-  "title": "{{blue|Enhanced Location}}",
+  "title": "{{blue|Show Parasang}}",
   "description": "Shows the coordinates of your location",
   "tags": "World,UX,Cosmetic",
   "version": "1.0",
-  "author": "whachoe <whachoe@gmail.com>",
+  "author": "whachoe",
   "previewImage": "preview.png"
 }
